@@ -1,0 +1,90 @@
+style.css
+CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #002827c3;
+  color: #f9fafb;
+  line-height: 1.8;
+}
+
+header {
+  text-align: center;
+  padding: 60px 120px;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+header p {
+  color: #bdcadd;
+  margin: 10px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #000507;
+  color: rgb(252, 249, 249);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  max-width: 1100px;
+  margin: 45px auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #00040a;
+  border-bottom: 2px solid #02b2dee7;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #090909;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 25px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #1e293bb9;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000009;
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
